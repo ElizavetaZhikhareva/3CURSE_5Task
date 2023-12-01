@@ -1,0 +1,8 @@
+//Реализуйте паттерн "Строитель" для класса "Пользователь" (User), который позволяет задавать имя, фамилию, электронную почту и другие свойства пользователя.
+/ Класс Пользователь (User)
+public class User {
+    private final String firstName;
+    private final String lastName;
+    private final String email;
+    private final String phoneNumber;
+    // Другие свойства пользователя
