@@ -1,0 +1,4 @@
+  public UserBuilder setEmail(String email) {
+            this.email = email;
+            return this;
+        }
