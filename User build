@@ -1,0 +1,6 @@
+  // Метод для создания объекта Пользователя (User) с помощью Строителя (UserBuilder)
+        public User build() {
+            return new User(this);
+        }
+    }
+}
