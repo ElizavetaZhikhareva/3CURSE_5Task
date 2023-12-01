@@ -1,0 +1,8 @@
+// Приватный конструктор для использования только внутри класса Строителя
+    private User(UserBuilder builder) {
+        this.firstName = builder.firstName;
+        this.lastName = builder.lastName;
+        this.email = builder.email;
+        this.phoneNumber = builder.phoneNumber;
+        // Инициализация других свойств пользователя
+    }
